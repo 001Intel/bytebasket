@@ -1,11 +1,12 @@
-import AuthPage from "./pages/AuthPage";
+import React from 'react';
+import Register from './components/Register';
+import Login from './components/Login';
 
 function App() {
   return (
-    <div className="app">
-      <h1>ByteBasket</h1>
-      <p>Welcome to the product authentication system.</p>
-      <AuthPage />
+    <div>
+      <Register />
+      <Login />
     </div>
   );
 }
